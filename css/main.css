@@ -19,7 +19,8 @@ textarea {
 }
 
 body {	
-	background-color: #E9E9DE;
+  background-image: url(../img/backgrounds3.jpg);
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100;
