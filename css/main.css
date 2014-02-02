@@ -18,9 +18,51 @@ textarea {
     color: #222;
 }
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
+body {	
+	background-image:url(../img/backgrounds3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100;
+    line-height: 1.4;  
+   
+}
+
+header {
+	margin: 0 auto;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Eater', cursive;	
+	font-size: 2.5em;
+	background-color: #CC0000;
+	word-wrap: break-word;
+	margin-top: -1.4em;;
+}
+
+
+
+section p{
+	margin: 0 auto 1em auto;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Freckle Face', cursive;
+	font-size: 2em;
+	background-color: #FFCC00;
+	border-radius: 25px;
+	width: 60%;
+	word-wrap: break-word;
+		
+}
+
+footer{
+	
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Freckle Face', cursive;
+	background-color: #009999;
+	border-radius: 25px;
+	font-size: 0.5em;
+	font-size: 1em;
+	word-wrap: break-word;
 }
 
 a {
@@ -87,6 +129,16 @@ textarea {
    ========================================================================== */
 
 /* Prevent callout */
+
+/*video*/
+.center{
+	margin: 0 auto;
+	display: block;
+	padding: 1.5em;
+	max-width: 100%;
+  	height: auto;
+	
+}
 
 .nocallout {
     -webkit-touch-callout: none;
